@@ -54,7 +54,12 @@ Media Queries
 
 */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
+    body {
+      background-color: #d6e2f0;
+    }
+  }
+@media screen and (max-width: 1440px) {
     body {
       background-color: #d6e2f0;
     }
