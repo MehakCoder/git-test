@@ -12,10 +12,12 @@ body{
 
 #container{
     width: 350px;
-    height: 528px;
+    height: 520px;
     background-color: #fff;
     border-radius: 20px;
-    margin : 7rem auto;
+    margin-top : 7rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
 }
 .qr-image{
@@ -54,13 +56,18 @@ Media Queries
 
 */
 
-@media screen and (min-width: 375px) {
-    body {
+@media screen and (max-width: 480px) {
+    #container {
       background-color: #d6e2f0;
+      margin-top: 93%;
     }
   }
-@media screen and (max-width: 1440px) {
-    body {
+
+  @media screen and (max-width: 375px) {
+    #container {
       background-color: #d6e2f0;
+      margin-top: 93%;
     }
-  }
+  }  
+
+ 
